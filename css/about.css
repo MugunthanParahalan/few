@@ -1,0 +1,53 @@
+#about-page{
+	padding-top:10vh;
+}
+
+
+#about-grid{
+	display:grid;
+	grid-template-columns: 4fr 8fr;
+}
+
+#about-page > .section-title , #about-page > .section-text , #about-grid{
+	text-align:right;
+	padding-right:10%;
+}
+
+.about-text{
+	text-align:justify;
+	font-weight:bold;
+	font-size:0.9rem;
+	letter-spacing:1px;
+	padding-top:2%;
+}
+
+#spl-logo{
+	display: block;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+@media(max-width:1150px){
+	
+.section-text{
+	font-size:1.5rem;
+}
+}
+
+@media(max-width:650px){
+	
+	.section-text{
+	font-size:1.2rem;
+}
+
+	#about-grid{
+		display:block;
+		padding-right:0;
+		padding: 10px;
+	}
+	
+
+	
+}
